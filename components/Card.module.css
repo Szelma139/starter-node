@@ -1,0 +1,38 @@
+
+.red {
+    color: white;
+}
+
+.mainBox {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(238, 27, 36, 1);
+
+    
+
+}
+.box {
+    
+    height: 80%;
+    width: 80%;
+}
+
+.card {
+display: flex;
+align-items: flex-start;
+justify-content: space-around;
+flex-direction: column;
+}
+
+
+.number {
+    font-size: 35;
+    font-weight: 700;
+  
+}
+
+
+.start {
+    align-self: flex-start;
+}

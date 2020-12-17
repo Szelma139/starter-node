@@ -1,0 +1,48 @@
+
+.cards {
+    width: 100%;
+    display: flex;
+}
+
+.card {
+    height:300px;
+    width:25%;
+}
+
+
+.orange {
+    background-color: rgb(241, 197, 14);
+}
+
+.gray {
+
+    background-color: rgb(85, 92, 102);
+
+
+}
+
+.black {
+
+    background-color: rgb(41, 45, 51);
+
+
+}
+
+.red {
+
+    background-color: rgb(238,7, 36);
+
+
+}
+
+.white-font {
+color: white;
+}
+
+.black-font {
+color: black;
+}
+
+.black {
+
+}
