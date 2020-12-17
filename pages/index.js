@@ -34,6 +34,8 @@ export default function Home() {
        
       </Cards>
       <Footer />
+      <p>Last update: 18:13 17.12</p>
+
     </div>
   );
 }
