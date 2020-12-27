@@ -1,41 +1,43 @@
 import Head from "next/head";
-import Header from "@components/Header";
-import Footer from "@components/Footer";
-import { Card } from "@components/Card";
 
-import styled from "styled-components";
+import { NavBar } from 'components/NavBar'
+import { Bottom } from 'components/Bottom'
+
+import {createGlobalStyle} from 'styled-components';
+
+import styled from 'styled-components'
+
+const GlobalStyle = createGlobalStyle`
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+`;
+
+
 
 export default function Home() {
-  const Cards = styled.div`
-    width: 100%;
-    display: flex;
-  `;
 
-  const CardContainer = styled.div`
- height:300px;
-    width:25%;
-  `;
 
   return (
-    <div>
-      <Cards>
-       <CardContainer>
-       <Card />
-       </CardContainer>
-       <CardContainer>
-       <Card />
-       </CardContainer>
-       <CardContainer>
-       <Card />
-       </CardContainer>
-       <CardContainer>
-       <Card />
-       </CardContainer>
-       
-      </Cards>
-      <Footer />
-      <p>Last update: 18:13 17.12</p>
 
-    </div>
+
+
+<>
+         <GlobalStyle/>
+      <Head>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto"
+          rel="stylesheet"
+          key="google-font-roboto"
+        />
+      </Head>
+      <NavBar/>
+      <Bottom/>
+    </>
+
+
   );
 }
